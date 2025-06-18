@@ -12,3 +12,5 @@ combinedData.sort((a, b) => {
     if(a.type > b.type) return 1;
     return 0;
 }).map(r => console.log(r.type + " " + r.id));
+
+console.log(`Total Resources: ${combinedData.length}`);
