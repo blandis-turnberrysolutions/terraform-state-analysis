@@ -20,8 +20,8 @@ const resourceSchema = z.object({
     instances: z.array(z.object({
         attributes: z.object({
             arn: z.string().optional(),
-            bucket: z.string().optional(),
             id: z.string().optional(),
+            name: z.string().optional(),
         })
     }))
 });
